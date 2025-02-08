@@ -159,7 +159,7 @@ class VeterinariaApp:
         tk.Label(self.root, text="Sitemas Veterinaria", font=("Arial", 16)).pack(pady=10)
         
         tk.Button(self.root, text="Registar Cliente",command=self.registar_cliente).pack(pady=5)
-        tk.Button(self.root, text="Registar Mascota",command="").pack(pady=5)
+        tk.Button(self.root, text="Registar Mascota",command=self.registar_mascota).pack(pady=5)
         tk.Button(self.root, text="Programar Cita",command="").pack(pady=5)
         tk.Button(self.root, text="Consultar Historial de Citas",command="").pack(pady=5)
         
